@@ -3,13 +3,13 @@ package entidade;
 import java.io.Serializable;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-
 
 /**
  * Entity implementation class for Entity: Paciente
@@ -21,6 +21,7 @@ public class Paciente implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="id_paciente")
 	private int id;
 	
 	@OneToOne(cascade=CascadeType.PERSIST)
