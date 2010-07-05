@@ -5,7 +5,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 /**
- * Session Bean implementation class Utilitario
+ * Bean utilitário para operações diversas.
  */
 @Stateless
 public class Utilitario implements UtilitarioLocal {
