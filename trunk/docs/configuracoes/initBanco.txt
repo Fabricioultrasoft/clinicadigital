@@ -1,0 +1,27 @@
+-- Schema: "acompanhamento";
+-- DROP SCHEMA acompanhamento;
+CREATE SCHEMA acompanhamento
+  AUTHORIZATION postgres;
+COMMENT ON SCHEMA acompanhamento IS 'Este esquema corresponde ao pacote "Acompanhamento".';
+
+
+-- Schema: "administracao";
+-- DROP SCHEMA administracao;
+CREATE SCHEMA administracao
+  AUTHORIZATION postgres;
+COMMENT ON SCHEMA administracao IS 'Este esquema corresponde ao pacote "Administração".';
+
+
+-- Schema: "agendamento";
+-- DROP SCHEMA agendamento;
+CREATE SCHEMA agendamento
+  AUTHORIZATION postgres;
+COMMENT ON SCHEMA agendamento IS 'Este esquema corresponde ao pacote "Agendamento".';
+
+
+-- Schema: "rh";
+-- DROP SCHEMA rh;
+CREATE SCHEMA rh
+  AUTHORIZATION postgres;
+COMMENT ON SCHEMA rh IS 'Armazenar entidades de RH.';
+
