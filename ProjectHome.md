@@ -1,0 +1,1 @@
+Clinica Digital é um sistema de marcação de consultas e acompanhamento médico dos pacientes de uma clínica. Nele é possível cadastrar os pacientes, médicos e demais profissionais do corpo clínico. Cada profissional acima qualificado deve ter sua agenda de atendimento numa sala fixa. Dessa forma, cada um deles atenderá seus pacientes com hora marcada em sua sala.
